@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
-import type { LocaleType } from "./index";
+import type { PartialLocaleType } from "./index";
 
-const jp: LocaleType = {
+const jp: PartialLocaleType = {
   WIP: "この機能は開発中です",
   Error: {
     Unauthorized:
@@ -211,7 +211,8 @@ const jp: LocaleType = {
       Sync: {
         Title: "グローバル設定を利用する",
         SubTitle: "このチャットでグローバル設定を利用します。",
-        Confirm: "カスタム設定を上書きしてグローバル設定を使用します、よろしいですか？",
+        Confirm:
+          "カスタム設定を上書きしてグローバル設定を使用します、よろしいですか？",
       },
       HideContext: {
         Title: "キャラクター設定を表示しない",
